@@ -584,6 +584,9 @@ a.linked:hover, a.linked:active{
 }
 .social-links{
 	padding-top: 15px;
+	margin-left: 10px;
+	position: relative;
+	top: 2px;
 }
 .social-links a{
 	font-size: 20px;
