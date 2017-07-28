@@ -145,27 +145,11 @@ a{
 	margin: 0px 0px 15px 0px;
 	font-weight: 300;
 	position: relative;
-	padding-left: 35px;
+	padding-left: 20px;
 }
-.info-section-list-item::before{
-	height: 8px;
-	width: 8px;
-	border-radius: 1000px;
-	position: absolute;
-	border:1px solid #333;
-	top: 10px;
-	left: 4px;
-	content: "";
-	float: left;
-}
-.info-section-list-item-bullet{
-	background: #FF923F;
-	height: 5px;
-	width: 5px;
-	border-radius: 1000px;
-	position: absolute;
-	top: 0px;
-	left: 0px;
+.info-section-list-container{
+	padding-left: 15px;
+	list-style-type: circle;
 }
 .inner-modal .info-section-list-item:last-child{
 	margin-bottom: 50px;
