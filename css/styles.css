@@ -1,14 +1,28 @@
+/* Manjari */
 @font-face {
-  font-family:"Manjari Thin";
-  src: url("../fonts/manjari/Manjari-Thin.woff") format('woff');
+	font-family: 'Manjari';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://smc.org.in/downloads/fonts/manjari/Manjari-Regular.woff2?v=1.0) format('woff2'), url(https://smc.org.in/downloads/fonts/manjari/Manjari-Regular.woff?v=1.0) format('woff'), url(https://smc.org.in/downloads/fonts/manjari/Manjari-Regular.ttf?v=1.0) format('truetype');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C-U+200D, U+25CC;
 }
+
+/* Manjari Bold*/
 @font-face {
-  font-family:"Manjari Regular";
-  src: url("../fonts/manjari/Manjari-Regular.woff") format('woff');
+	font-family: 'Manjari';
+	font-style: normal;
+	font-weight: 700;
+	src: url(https://smc.org.in/downloads/fonts/manjari/Manjari-Bold.woff2?v=1.0) format('woff2'), url(https://smc.org.in/downloads/fonts/manjari/Manjari-Bold.woff?v=1.0) format('woff'), url(https://smc.org.in/downloads/fonts/manjari/Manjari-Bold.ttf?v=1.0) format('truetype');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C-U+200D, U+25CC;
 }
+
+/* Manjari Thin*/
 @font-face {
-  font-family:"Manjari Bold";
-  src: url("../fonts/manjari/Manjari-Bold.woff") format('woff');
+	font-family: 'Manjari';
+	font-style: normal;
+	font-weight: 100;
+	src: url(https://smc.org.in/downloads/fonts/manjari/Manjari-Thin.woff2?v=1.0) format('woff2'), url(https://smc.org.in/downloads/fonts/manjari/Manjari-Thin.woff?v=1.0) format('woff'), url(https://smc.org.in/downloads/fonts/manjari/Manjari-Thin.ttf?v=1.0) format('truetype');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C-U+200D, U+25CC;
 }
 
 html, body{
@@ -108,7 +122,7 @@ a{
 }
 
 .sub-header[data-lang="ml"]{
-	font-family:"Manjari Thin";	
+	font-family:"Manjari";	
 }
 
 .logo-container img{
@@ -126,7 +140,7 @@ a{
 }
 
 .info-section-header[data-lang="ml"] {
-    font-family: "Manjari Thin";
+    font-family: "Manjari";
 }
 
 .info-section-desc{
@@ -338,7 +352,7 @@ a.linked:hover, a.linked:active{
 	padding: 10px 15px;
 }
 [data-lang="ml"] {
-    font-family: "Manjari Regular";
+    font-family: "Manjari";
     display: none;
 }
 [data-lang="en"] {
